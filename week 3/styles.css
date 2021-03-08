@@ -1,0 +1,20 @@
+.red{
+    color: red;
+ }
+ 
+#box{
+   background-color: yellow; 
+   /*height:  avoid height*/
+   border: 10px solid red;    
+   margin-left: 50px;
+   padding-left: 50px;    
+       
+}
+
+#box2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin-top: 45px;
+    
+}
