@@ -27,14 +27,15 @@ body{
     margin-top: 40px;
     
 }
+
 #logo{
-  max-width: 900px;
-  width: 100px; 
+  max-width: 360px;
+  width: 100%; 
     }
 
 #description, #date{
-    max-width: 220px;
-    width: 100%;
+    max-width: 300px;
+    width: 17%;
     
 }
 
@@ -50,6 +51,27 @@ body{
     padding: 15px 30px;
 }
 
+#what{
+    background-color: rgba(200,240,220,0.9);
+    margin-top: 345px;
+    
+}
+
+#what p{
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#what h1{
+    text-align: center;
+    padding: 25px 0;
+    color: #384;   
+}
+
+#what 
 
 
 
