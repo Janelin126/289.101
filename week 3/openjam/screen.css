@@ -157,6 +157,8 @@ p:nth-child(2+3) {
    background-size: 300px, 200px;
    margin: 0 170px 0;
     background-repeat: no-repeat, repeat-x;
+   display: contents;
+    
 }
 
 #where h1{
@@ -165,9 +167,14 @@ p:nth-child(2+3) {
     
 }
 
+#where p{
+    color: #bb4488;
+}
 
-
-
+#when{
+    background-color: #439998;
+    background-image: url('img/wires.png');
+}
 
 
 
