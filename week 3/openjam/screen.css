@@ -35,7 +35,7 @@ body{
 
 #description, #date{
     max-width: 300px;
-    width: 17%;
+    width: 25%;
     
 }
 
@@ -53,32 +53,117 @@ body{
 
 #what{
     background-color: rgba(200,240,220,0.9);
-    margin-top: 345px;
+    margin-top: 355px;
     
-}
-
-#what p{
-    width: 100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    
     
 }
 
 #what h1{
     text-align: center;
-    padding: 25px 0;
-    color: #384;   
+    padding: 42px 0 10px;
+    color:#347788;
+    font-size: 220%;
+    font-weight: 400px;
 }
 
-#what 
+
+#what p{
+    width: 100%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    font-weight:500;
+    font-size:1.15em;
+    word-spacing: 0.15rem;*/
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    padding: 0px;
+}
 
 
+p:nth-child(2+3) {
+    font-size: 1em;
+    margin-top: 10px;
+    padding-top: 30px;
+   
+
+}
 
 
+#what h2{
+    text-align: center;
+    font-size: 140%;
+    color:#347788;
+    font-weight: bold;
+    /*font-kerning: normal;*/
+    padding-top: 15px;
+    
+}
 
+#sponsors{
+    max-width: 100px;
+    width:50%;
+   align-content: center;
+   margin-left: 30px;
+   margin-right: 200px;
+   padding-left: 100px;*/
+}
 
+#massey, #oracle {
+    max-width: 300px;
+    width: 37%;
+    display: contents
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-bottom: 60px;
 
+}
+
+#why {
+    background-color: #b6ead3;
+    margin-top: -20px;
+    padding-top:30px;
+    
+}
+
+#why h1{
+    text-align: center;
+    color: #347788;
+    font-size: 220%;
+}
+
+#why p{
+    width: 100%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    font-size:auto;
+    word-spacing: 0.15rem;*/
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    padding-bottom: 45px;
+    
+}
+
+#where {
+   background-image: url('img/map.gif');
+   background-position: center 280px, left top; 
+   background-size: 300px, 200px;
+   margin: 0 170px 0;
+    background-repeat: no-repeat, repeat-x;
+}
+
+#where h1{
+    text-align: center;
+    color: #bb4488;
+    
+}
 
 
 
