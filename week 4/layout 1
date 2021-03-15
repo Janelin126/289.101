@@ -29,8 +29,8 @@
      }
      
      #green {
-     background-color: green;
-     grid-column: 2/5; 
+     backgrouond-color: green;
+     grid-column: 2/5; <*/start point/>
      }
      </style>
      
