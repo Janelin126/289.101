@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+   <meta charset="utf-8"/>
+   <title>Layout5</title>
+   <style>
+ /*value in div for everything */
+     div{
+        outline: 1px solid black;
+     } 
+
+       #container{
+
+      margin: auto;
+      max-width: 800px;
+     }
+
+       #blue {
+           background-color: blue;
+
+           height: 200px;
+           display: grid;
+           grid-template-columns: 20%;
+           padding: 10px;
+       }
+
+       .yellow {
+           background-color: yellow;
+           grid-column: 5/5;
+           height: 160px;
+           margin: 20px;
+       }
+
+       #red {
+           background-color: red;
+           grid-column: 1/5;
+           height: 400px;
+           display: grid;                     
+           grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+           grid-auto-rows: 1fr, 1fr, 1fr;
+
+       }
+       .red{
+           background-color: red;
+           grid-column: 1fr 2fr;
+           height: 400px;
+
+
+       }
+        .yellow1 {
+           background-color: yellow;
+           grid-column: 3/5;
+           height: 350px;
+           margin: 20px;
+
+       }
+
+       .yellow2{
+           background-color: yellow;
+           grid-column: 3/5;
+           grid-row: 1/3;
+           height: 100xp;
+           margin: 20px;
+       }
+
+
+
+       #green {
+           background-color: lime;
+           grid-column: 1/5;
+           height: 200px;
+
+       }
+
+    </style>
+
+    </head>
+
+
+<body>
+    <div id="container">
+
+        <div id= "blue">
+           <div class= "yellow"></div>
+        </div>
+
+       <div id="red">
+         <div class= "red"></div>
+        <div class= "yellow1"></div>
+        <div class= "yellow2"></div> </div>
+
+       <div id= "green"></div>    
+
+    </div>
+
+    </body>
+
+</html>
+
+    </body> 
