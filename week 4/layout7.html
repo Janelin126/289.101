@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+ <meta charset="utf-8"/>
+ <title>Layout7</title>
+ <style>
+ 
+   div{
+     outline: 1px solid black;
+     }
+     
+     #container{
+      margin: auto;
+      max-width: 800px;
+     }
+     
+     #item1 {
+         background-color: blue;
+         height: 65px;
+         display: grid;
+         grid-template-columns: 1fr 2fr;
+         padding: 10px;
+        }
+       .y1 {
+         background-color: yellow;
+         border:1px solid black;
+         margin: 10px; 
+         
+     }
+     
+     #item2{
+         background-color: lime;
+         height: 440px;
+         column-span: all;
+     }
+     
+     #item3 {
+         background-color: red;
+         height: 350px;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-auto-rows: 1fr 2fr;
+         padding: 10px;
+     }
+     
+       .span1{
+         background-color: yellow;
+         grid-column: 1/4;
+         grid-row: 1fr;
+         margin: 15px 10px;
+     }
+       .ybox3{
+         background-color: yellow;
+         margin: 10px;
+     }
+     
+     #item4{
+         background-color: blue;
+         height:630px;
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         grid-template-rows: repeat(4,1fr);
+         padding-top: 20px;
+         padding-left:  10px;
+         padding-right: 10px;
+         padding-bottom: 20px;
+        /* grid-gap: 4px;*/
+         
+     }
+       .span2{
+         background-color: yellow;
+         grid-column: 1/5;
+         grid-row: 1fr;
+         margin: 15px;
+         border: 1px solid black;
+     }
+       .ybox12{
+         background-color: yellow;
+         margin:13px; 
+         border: 1px solid black;
+     }
+     
+     #item5{
+         background-color: lime;
+         height: 500px;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-auto-rows: 1fr 2fr;
+         padding: 20px;
+         
+     }
+      
+       .span1{
+         background-color: yellow;
+         grid-column: 1/4;
+         grid-row: 1fr;
+         margin: 18px;
+     }
+       .ybox3{
+         background-color: yellow;
+         margin: 20px;
+     }
+     
+     #item6{
+         background-color: red;
+         height: 420px;
+         display: grid;
+         grid-template-columns: 2fr 1fr;
+         grid-template-rows: 1fr 2fr 2fr;
+         padding: 20px;
+         
+         }
+     .span3{
+         background-color: yellow;
+         grid-column: 1/4;
+         grid-row: 1fr;
+         margin-bottom: 18px;
+         margin-top: 20px;
+         
+     }
+     
+     .ybigbox{
+         background-color: yellow;
+         grid-column: 2fr;
+         grid-row: 2/5;
+         margin: 10px; 
+     }
+     .ysmallbox{
+         background-color: yellow;
+         grid-column: 1fr;
+         grid-row:  1fr;
+         margin:10px;
+     }
+     
+     #item7{
+         background-color: blue;
+         height: 65px;
+     }
+     
+    </style>
+    
+    </head>
+    
+    
+    <body>
+       <div id="container">
+           <div id="item1">
+           <div class="y1"></div>
+            <div class="y1"></div>
+           </div>
+           
+           <div id="item2"></div>
+           <div id="item3">
+           <div class="span1"></div>
+               <div class="ybox3"></div>
+               <div class="ybox3"></div>
+               <div class="ybox3"></div>
+           </div>
+           
+           <div id="item4">
+               <div class="span2"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+               <div class="ybox12"></div>
+            </div>
+           
+           <div id="item5">
+              <div class="span1"></div>
+               <div class="ybox3"></div>
+               <div class="ybox3"></div>
+               <div class="ybox3"></div>
+           </div>
+           
+           <div id="item6">
+               <div class="span3"></div>
+               <div class="ybigbox"></div>
+               <div class="ysmallbox"></div>
+            </div>
+           
+           <div id="item7"></div>
+        </div>
+        
+        
+    </body>
+</html>
