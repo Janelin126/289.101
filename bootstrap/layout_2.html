@@ -16,30 +16,32 @@
         
         <style>
         
-            *{ outline: white 8px solid}
+            *{ outline: white 8px solid;
+            }
             
             .blue {
                 background-color: #3FB4FF;
-                height: 50px;
+                height: 100px;
+                width: 100%;
             }
             
             .green {
                 background-color: yellowgreen;
-                height:50px;
+                height:100px;
             }
             
             .darkred {
                 background-color: darkred;
-                height: auto;
+                height: 300px;
             }
             
             .grey {
                 background-color: grey;
-                height: auto;
+                height: 100px;
             }
             
-            .purple {
-                background-color: violet;
+            .meganta {
+                background-color:rgb(114, 0, 99);
                 height: auto;
             }
             
@@ -61,38 +63,105 @@
                 body { background-color: blue}
             } */
             
+            @media (min-width: 578px) {
+                .grey {
+                    height:100px;
+                }
+            }
+           
+            @media (min-width: 768px) {
+                .green {
+                    background-color: yellowgreen;
+                    height: 250px;
+                }
+                .grey {
+                    height: 200px;
+                }
+                .darkred {
+                    height: 600px;
+                }
+
+            }
+            
+            @media (min-width: 1200px) {
+                .green {
+                    height: 900px;;
+                }
+                .grey {
+                    height: 150px;
+
+                }
+                .darkred {
+                    height: 900px;;
+                }
+            }
         </style>
         
 </head>
         
 <body>
 
-    <div class="container">
+    <div class="container-fluid ">
     
-        <div class="row">
+        <div class="row no-gutter">
         
-            <div class="col-lg-12 blue"></div>
+            <div class="col blue">hello world</div>
            
         </div>
         
         
-        <div class="row">
-            <div class="col-lg green"></div>
-            <div class="col-lg-6 grey">
-            
-                <div class="container">
-                <div class="col-lg-3 grey"></div>
-                <div class="col-lg-8 violet"></div>
-                </div>
-                    
+        <div class="row no-gutter">
+
+            <div class="col-md-12 col-lg-3 green">dfasdfasdfsdfasd</div>
+
+        
+        
+        <div class="col-sm-12 col-md-6 col-lg-6 grey">
+            <div class="row no-gutter">
+
+                <div class="col-6 col-md-6 col-lg-4 grey">a</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">b</div>
+                
+
+                <div class="col-6 col-md-6 col-lg-4 grey">q</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">e</div>
+
+
+                <div class="col-6 col-md-6 col-lg-4 grey">w</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">t</div>
+                
+                
+                <div class="col-6 col-md-6 col-lg-4 grey">y</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">u</div>
+                
+                
+                <div class="col-6 col-md-6 col-lg-4 grey">p</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">d</div>
+                
+                
+                <div class="col-6 col-md-6 col-lg-4 grey">k</div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 meganta">j</div>
             </div>
-            <div class="col-12 col-lg darkred"></div>
-            
         </div>
         
+           <!--<div class="row">
+
+            <div class="col grey"></div>
+            <div class="col grey"></div>
+            <div class="w-100"></div>
+            <div class="col grey"></div>
+            <div class="col grey"></div>
+            <div class="w-100"></div>
+            <div class="col grey"></div>
+            <div class="col grey"></div>
+
+        </div> -->
+
+        <div class="col-sm-12 col-md-6 col-lg-3 darkred">!!!</div>
         
+        
+        </div>
     </div>
-    
     
 
             
